@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+locust = "*"
+click = "*"
+
+[dev-packages]
+black = {version = "*", index = "pypi"}
+flake8 = {version = "*", index = "pypi"}
+flake8-bugbear = {version = "*", index = "pypi"}
+flake8-comprehensions = {version = "*", index = "pypi"}
+flake8-docstrings = {version = "*", index = "pypi"}
+flake8-isort = {version = "*", index = "pypi"}
+isort = {version = "*", index = "pypi"}
+mypy = {version = "*", index = "pypi"}
+pytest = {version = "*", index = "pypi"}
+pytest-cov = {version = "*", index = "pypi"}
+radon = {version = "*", index = "pypi"}
+starlette = {version = "*", index = "pypi"}
+uvicorn = {version = "*", index = "pypi"}
+pdbpp = {version = "*",index = "pypi"}
+
+[requires]
+python_version = "3.8"

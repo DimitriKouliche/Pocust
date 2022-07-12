@@ -1,0 +1,10 @@
+# docker-compose file used for CI tests
+
+version: '3.4'
+
+services:
+  app:
+    container_name: "${APP_NAME}-test"
+    image: "${DOCKER_REGISTRY_DEV}/${DOCKER_REPOSITORY_NAME}:${IMAGE_TAG}-test"
+    volumes:
+      - .:/home/ma_locust/app

@@ -1,0 +1,5 @@
+#!groovy
+
+@Library("ma-pipeline-libs") _
+
+def pipelineValues = fullDockerApp([mainBranchName: "main"])
